@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_footer"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="20dp"
+    android:layout_centerHorizontal="true"
+    android:layout_width="1600dp"
+    android:layout_height="200dp"
+    >
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/nav_bg"
+        android:layout_width="match_parent"
+        android:layout_height="85dp">
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp">
+                <ImageView
+                    android:id="@+id/nav_01"
+                    android:src="@drawable/nav_01"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp" />
+                <ImageView
+                    android:visibility="invisible"
+                    android:id="@+id/nav_01_hv"
+                    android:src="@drawable/nav_01_hv"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp" />
+                <TextView
+                    android:text="首  页"
+                    android:layout_marginBottom="15dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginLeft="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp">
+                <ImageView
+                    android:id="@+id/nav_02"
+                    android:src="@drawable/nav_02"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp" />
+                <ImageView
+                    android:id="@+id/nav_02_hv"
+                    android:src="@drawable/nav_02_hv"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp" />
+                <TextView
+                    android:text="班  级"
+                    android:layout_marginBottom="15dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginLeft="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp">
+                <ImageView
+                    android:id="@+id/nav_03"
+                    android:src="@drawable/nav_03"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"/>
+                <ImageView
+                    android:id="@+id/nav_03_hv"
+                    android:src="@drawable/nav_03_hv"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp" />
+                <TextView
+                    android:text="课  表"
+                    android:layout_marginBottom="15dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/footer_center_img"
+                android:layout_width="0dp"
+                android:layout_height="0dp" />
+
+            <RelativeLayout
+                android:layout_toRightOf="@id/footer_center_img"
+                android:layout_marginLeft="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp">
+                <ImageView
+                    android:id="@+id/nav_04"
+                    android:src="@drawable/nav_04"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"/>
+                <ImageView
+                    android:id="@+id/nav_04_hv"
+                    android:src="@drawable/nav_04_hv"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"/>
+                <TextView
+                    android:text="考  勤"
+                    android:layout_marginBottom="15dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginLeft="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp">
+                <ImageView
+                    android:id="@+id/nav_05"
+                    android:src="@drawable/nav_05"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"/>
+                <ImageView
+                    android:id="@+id/nav_05_hv"
+                    android:src="@drawable/nav_05_hv"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"/>
+                <TextView
+                    android:text="活  动"
+                    android:layout_marginBottom="15dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginLeft="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp">
+                <ImageView
+                    android:id="@+id/nav_06"
+                    android:src="@drawable/nav_06"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp" />
+                <ImageView
+                    android:id="@+id/nav_06_hv"
+                    android:src="@drawable/nav_06_hv"
+                    android:layout_marginTop="2dp"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp" />
+                <TextView
+                    android:text="作  业"
+                    android:layout_marginBottom="15dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="200dp"
+            android:layout_height="230dp"
+            android:orientation="vertical"
+
+            >
+            <RelativeLayout
+                android:layout_width="200dp"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/image"
+                    android:src="@drawable/fm"
+                    android:scaleType="centerCrop"
+                    />
+
+                <TextView
+                    android:alpha="0.5"
+                    android:id="@+id/photo_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center"
+                    android:text="95班的我们"
+                    android:background="#b3b3b3"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp"
+
+                    />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:text="共：6张"
+
+                />
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+

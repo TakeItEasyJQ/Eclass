@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/layout_header"
+    android:layout_height="200dp"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/header"
+    >
+    <TextView
+        android:id="@+id/tv_show_class"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="50dp"
+        android:text="初中三年级 95班"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_show_time"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="250dp"
+        android:layout_marginTop="50dp"
+        android:text="2018-06-07 19:00:00 | 星期四"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
